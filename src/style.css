@@ -2,14 +2,33 @@
 
 body{
     background: green;
+    font-size: 40px;
+    font-family: serif;
 }
 
 .card {
-    height: 300px;
+    height: 350px;
     width: 250px;
     border: 1px, solid, black;
+    border-radius: 15px;
 }
 
 #newCard {
-    margin-top: 300px;
+    margin-top: 400px;
 }
+
+#top-suit {
+    padding-left: 5px;
+    padding-top: 3px;
+}
+#bottom-suit {
+    padding-left: 5px;
+    padding-top: 3px;
+    transform: rotate(180deg);
+}
+
+#card-number {
+    font-size: 100px;
+    font-weight: bold;
+}
+

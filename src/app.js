@@ -1,9 +1,14 @@
 import "bootstrap";
 import "./style.css";
 
-
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
+
+
+//Add a timer that generates a new card every 10 seconds.
+
+//+1 Allow the user to specify the card width and height using text inputs.
+
 
 window.onload = function () {
   document.querySelector("#newCard").addEventListener("click", randomCardGenerator);
@@ -33,7 +38,5 @@ console.log(suitColors)
     suit.style.color = randomSuit.color
    
   }
-
-
-
+  
 }
